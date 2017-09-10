@@ -4,7 +4,7 @@ button.innerText = 'Click Me';
 
 button.onclick = () => {
   System.import('./image_view').then(module => {
-    console.log(module);
+    module.default();
   });
 };
 
